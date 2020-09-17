@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Exercício</title>
+  </head>
+  
+  <body>
+
+    <div class="tela">
+        
+        <h1>Exercício 1</h1>
+    
+        <section class="estilo">
+
+            <p class="instrucao">Digite dois números:</p>
+
+            <input class="n1" type="text" 
+              placeholder="Digite o primeiro número" 
+              onkeypress="return event.charCode >= 48 && event.charCode <= 57"/>
+
+            <input class="n2" type="text" 
+              placeholder="Digite o segundo número" 
+              onkeypress="return event.charCode >= 48 && event.charCode <= 57"/> 
+              
+            <br>
+            <br>
+            <button onclick="clicar()">Resultado</button>
+            <p class="resultado"></p>
+
+        </section>
+        
+    </div>
+
+  </body>
+
+</html>
